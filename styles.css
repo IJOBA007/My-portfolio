@@ -1,0 +1,53 @@
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Welcome Section */
+#welcome-section {
+  height: 100vh; /* equal to viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+  text-align: center;
+}
+
+/* Projects Section */
+#projects {
+  padding: 4rem 1rem;
+  background: #f4f4f4;
+}
+
+.project-tile {
+  margin: 1rem 0;
+}
+
+/* Media Query */
+@media (max-width: 600px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
