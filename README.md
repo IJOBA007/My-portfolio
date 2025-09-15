@@ -4,7 +4,7 @@ This is my personal portfolio website built as part of the freeCodeCamp Responsi
 It contains my welcome section, projects showcase, and links to my profiles.
 
 ## 🚀 Live Demo
-[View Portfolio](https://ijoba007.github.io/my-portfolio/)
+[View Portfolio](https://ijoba007.github.io/My-portfolio/)
 
 ## 📂 Features
 - Welcome section with introduction
